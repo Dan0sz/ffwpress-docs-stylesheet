@@ -2,11 +2,55 @@
  * Custom Stylesheet for docs.ffw.press
  */
 
+@font-face {
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(https://ffw.press/wp-content/uploads/omgf/pro-merged-mod-oj0ud/jost-normal-400.woff2) format('woff2'), url(https://ffw.press/wp-content/uploads/omgf/pro-merged-mod-oj0ud/jost-normal-400.woff) format('woff');
+}
+
+@font-face {
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 600;
+    font-display: swap;
+    src: url(https://ffw.press/wp-content/uploads/omgf/pro-merged-mod-oj0ud/jost-normal-600.woff2) format('woff2'), url(https://ffw.press/wp-content/uploads/omgf/pro-merged-mod-oj0ud/jost-normal-600.woff) format('woff');
+}
+
 body {
+    font-family: Helvetica, Verdana, Arial, sans-serif;
     width: 100%;
     background-image: url('https://ffw.press/wp-content/themes/astra-child/assets/images/grayscale-waves-cropped-dark-gray-720.png');
     background-color: #e6e6e6;
     background-repeat: no-repeat;
     background-size: fixed;
     background-position: top center;
+}
+
+#docsSearch {
+    background-color: rgba(255, 255, 255, 0.4);
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Jost', sans-serif;
+    font-weight: 600;
+}
+
+h1 {
+    font-size: 3.125rem;
+    text-transform: uppercase;
+}
+
+h2 {
+    font-size: 2.25rem;
+    font-weight: 500;
+}
+
+h3 {
+    font-size: 1.625rem;
+}
+
+h4 {
+    font-size: 1.25rem;
 }
