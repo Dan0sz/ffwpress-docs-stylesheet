@@ -31,6 +31,7 @@
 
 body {
     font-family: Helvetica, Verdana, Arial, sans-serif;
+    font-size: 15px;
     width: 100%;
     background-image: url('https://ffw.press/wp-content/themes/astra-child/assets/images/grayscale-waves-cropped-dark-gray-720.png');
     background-color: #e6e6e6;
@@ -68,4 +69,9 @@ h4 {
 
 .category-list .category {
     background-color: #fff;
+    margin: 0 15px 15px 0 !important;
+}
+
+.category-list .category:nth-child(3n+3) {
+    margin-right: 0;
 }
